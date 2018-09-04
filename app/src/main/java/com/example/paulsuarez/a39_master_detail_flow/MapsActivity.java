@@ -1,5 +1,6 @@
 package com.example.paulsuarez.a39_master_detail_flow;
 
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -14,7 +15,7 @@ public class MapsActivity extends SingleFragmentActivity {
 
     @Override
     public Fragment getFragment() {
-
+        return new MapsFragment();
     }
 
 
